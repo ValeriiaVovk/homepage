@@ -214,6 +214,26 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.experiences__company-project-details {
+    margin-bottom: 10px;
+}
+
+.experiences__company-project-button {
+    font-family: inherit;
+    text-decoration: none;
+    background: whitesmoke;
+    color: #333333;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.experiences__company-project-button:hover {
+    background-color: #767676;
 }
   
 .additional-info {
@@ -245,18 +265,24 @@ body {
   
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 20px;
 }
+
+.additional-info__education-university-name a {
+    color: var(--secondary-text-color);
+}
+
   
-.additional-info__languages {
+.additional-info__languages, .additional-info__soft-skills {
     margin-bottom: 20px;
 }
   
-.additional-info__languages-header {
+.additional-info__languages-header, .additional-info__soft-skills-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
   
-.additional-info__languages-item {
+.additional-info__languages-item, .additional-info__soft-skills-item {
     color: var(--secondary-text-color);
 }
